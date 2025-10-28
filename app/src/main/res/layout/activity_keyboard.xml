@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:background="#222222"
+     android:padding="4dp"
+     android:orientation="vertical">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal">
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_1"
+             android:text="1" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_2"
+             android:text="2" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_3"
+             android:text="3" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_4"
+             android:text="4" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_5"
+             android:text="5" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_6"
+             android:text="6" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_7"
+             android:text="7" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_8"
+             android:text="8" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_9"
+             android:text="9" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_0"
+             android:text="0" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_minus"
+             android:text="-" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_equals"
+             android:text="=" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="2"
+             android:minWidth="0dp"
+             android:id="@+id/btn_backspace"
+             android:text="XÓA" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal">
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1.5"
+             android:minWidth="0dp"
+             android:id="@+id/btn_tab"
+             android:text="TAB" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_q"
+             android:text="Q" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_w"
+             android:text="W" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_e"
+             android:text="E" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_r"
+             android:text="R" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_t"
+             android:text="T" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_y"
+             android:text="Y" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_u"
+             android:text="U" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_i"
+             android:text="I" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_o"
+             android:text="O" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_p"
+             android:text="P" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_left_bracket"
+             android:text="[" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_right_bracket"
+             android:text="]" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_backslash"
+             android:text="\" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal">
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1.8"
+             android:minWidth="0dp"
+             android:id="@+id/btn_caps"
+             android:text="CAPS" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_a"
+             android:text="A" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_s"
+             android:text="S" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_d"
+             android:text="D" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_f"
+             android:text="F" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_g"
+             android:text="G" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_h"
+             android:text="H" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_j"
+             android:text="J" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_k"
+             android:text="K" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_l"
+             android:text="L" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_semicolon"
+             android:text=";" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_quote"
+             android:text="'" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="2.2"
+             android:minWidth="0dp"
+             android:id="@+id/btn_enter"
+             android:text="ENTER" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal">
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="2.5"
+             android:minWidth="0dp"
+             android:id="@+id/btn_shift_left"
+             android:text="SHIFT" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_z"
+             android:text="Z" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_x"
+             android:text="X" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_c"
+             android:text="C" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_v"
+             android:text="V" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_b"
+             android:text="B" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_n"
+             android:text="N" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_m"
+             android:text="M" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_comma"
+             android:text="," />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_period"
+             android:text="." />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:minWidth="0dp"
+             android:id="@+id/btn_slash"
+             android:text="/" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="2.5"
+             android:minWidth="0dp"
+             android:id="@+id/btn_shift_right"
+             android:text="SHIFT" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal">
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="2"
+             android:minWidth="0dp"
+             android:id="@+id/btn_ctrl_left"
+             android:text="CTRL" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1.5"
+             android:minWidth="0dp"
+             android:id="@+id/btn_alt_left"
+             android:text="ALT" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="7"
+             android:minWidth="0dp"
+             android:id="@+id/btn_space"
+             android:text="SPACE" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="1.5"
+             android:minWidth="0dp"
+             android:id="@+id/btn_alt_right"
+             android:text="ALT" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:padding="8dp"
+             android:layout_weight="2"
+             android:minWidth="0dp"
+             android:id="@+id/btn_ctrl_right"
+             android:text="CTRL" />
+
+    </LinearLayout>
+
+</LinearLayout>

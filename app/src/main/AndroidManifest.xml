@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lobie.physicalkeyboard">
+
+    <!-- Quyền để giao tiếp với Shizuku Manager -->
+    <uses-permission android:name="moe.shizuku.manager.permission.API_V23" />
+
+    <!-- Thẻ queries để app của bạn có thể "thấy" Shizuku Manager -->
+    <queries>
+        <package android:name="moe.shizuku.manager" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".KeyboardActivity"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:resizeableActivity="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.samsung.android.knox.META_DATA_IS_SUPPORT_MULTI_WINDOW"
+                android:value="true" />
+            <meta-data
+                android:name="com.sec.android.app.MULTI_WINDOW_LAUNCH_MODE"
+                android:value="FREE_FORM" />
+        </activity>
+
+        <!-- *** PHẦN ĐÃ SỬA LỖI *** -->
+        <!-- Chỉ cần khai báo như thế này là đủ. KHÔNG thêm android:permission -->
+        <provider
+            android:name="rikka.shizuku.ShizukuProvider"
+            android:authorities="${applicationId}.shizuku"
+            android:multiprocess="false"
+            android:enabled="true"
+            android:exported="true" />
+
+    </application>
+
+</manifest>
